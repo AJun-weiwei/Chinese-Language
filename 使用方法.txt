@@ -1,0 +1,2 @@
+放在C:里解压缩，运行“解释器.py”
+Extract the file to the C: directory and run "解释器.py"
