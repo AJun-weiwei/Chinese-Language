@@ -55,6 +55,6 @@
 完善 ‌代码仓库 (Git) 功能‌，比如修改文件的历史版本对比、团队共享仓库。
 增加‌调试器‌，方便查看每一步运行的变量变化。
 ## License
-This project is licensed under the MIT Liscese - see the [LICENSE.txt](LICENSE) file for details.
+This project is licensed under the MIT Liscese - see the [LICENSE](./LICENSE.txt) file for details.
 
 ## © 2026 AJun-weiwei
