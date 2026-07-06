@@ -54,3 +54,7 @@
 支持从键盘‌输入数字‌和更多类型的判断条件。
 完善 ‌代码仓库 (Git) 功能‌，比如修改文件的历史版本对比、团队共享仓库。
 增加‌调试器‌，方便查看每一步运行的变量变化。
+## License
+This project is licensed under the MIT Liscese - see the [LICENSE](LICENSE) file for details.
+
+## © 2026 AJun-weiwei
