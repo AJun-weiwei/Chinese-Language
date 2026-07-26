@@ -6,7 +6,7 @@
 <br>
 <br>
 社区网站状态 Status of the community website:
-![社区网站状态 Status of the community website](https://img.shields.io/website?url=https://debatable-unhelpful-suffrage.ngrok-free.dev/)
+![社区网站状态 Status of the community website](https://img.shields.io/website?url=https://debatable-unhelpful-suffrage.ngrok-free.dev&cacheSeconds=0)
 <br>
 <br>
 [前往社区网站 Go to the community website](https://debatable-unhelpful-suffrage.ngrok-free.dev/)
