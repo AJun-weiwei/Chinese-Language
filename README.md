@@ -1,6 +1,15 @@
 # 我的编程语言解释器项目
 ## 这是我的一个编程课或者兴趣项目，目标是创建一个可以执行一些简单代码的“解释器”。它不仅能处理一些基本的编程操作，还能管理用户账户和代码仓库，有点像 Git 那种感觉！
 
+### 🌐 项目社区
+社区网站 community website: https://debatable-unhelpful-suffrage.ngrok-free.dev/
+<br>
+<br>
+社区网站状态 Status of the community website:
+![社区网站状态 Status of the community website](https://img.shields.io/website?url=https://debatable-unhelpful-suffrage.ngrok-free.dev/)
+<br>
+<br>
+[前往社区网站 Go to the community website](https://debatable-unhelpful-suffrage.ngrok-free.dev/)
 ### 🚀 项目特色
 ‌脚本解释执行‌：用我自己定义的一些关键字来编写脚本，然后这个程序能读懂这些脚本并运行它们，比如执行打印、计算这些功能。
 ‌账户系统‌：支持注册、登录用户，还区分“普通用户”和“开发者”权限。
