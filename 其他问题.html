@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>其他问题</title>
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+<div>
+  <h1>欢迎向CLang开发者发送邮件！</h1>
+  <p id="important">注意：发件方将是计算机默认的邮箱，收件方为 weiwei_2015_33@163.com</p>
+  <div>
+    <label for="m1" id="CI">标题：</label>
+    <input type="text" id="m1">
+  </div>
+  <div>
+    <label for="text" id="CT">正文：</label>
+    <textarea id="text"></textarea>
+  </div>
+  <button onclick="EMail()">发送邮件</button>
+  <div id="print2"></div>
+  <script>
+    const m1 = document.getElementById('m1');
+    const t = document.getElementById('text');
+    const print2 = document.getElementById('print2');
+    function EMail(){
+      window.location.href = 'mailto:weiwei_2015_33@163.com?subject='+m1.value+'&body='+t.value;
+      print2.innerText = '发送成功，开发者将于3~5日内回复。'
+    }
+  </script>
+  <p>开发者邮箱：weiwei_2015_33@163.com</p>
+</div>
+</body>
+</html>
