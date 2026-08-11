@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XP++网站</title>
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+<div>
+  <h1>欢迎来到XP++官网！</h1>
+  <h1>制作方：CNC工作室-猿编程社区</h1>
+  <h1>下载XP++：</h1>
+  <p>您的邮箱地址：</p>
+  <input type="text" id="d1" placeholder="邮箱">
+  <div>
+    <label for="d2" id="DL">请选择版本号：</label>
+    <select id="d2" name="版本号">
+      <option value="1">XP++ 1</option>
+      <option value="2">XP++ 2</option>
+      <option value="3">XP++ 3</option>
+    </select>
+  </div>
+  <button onclick="DOnChick()">申报下载</button>
+  <div id="print1"></div>
+  <script>
+    const d1 = document.getElementById('d1');
+    const d2 = document.getElementById('d2');
+    const print1 = document.getElementById('print1');
+    function DOnChick(){
+      window.location.href = 'mailto:weiwei_2015_33@163.com?subject=下载产品&body=用户邮箱：'+d1.value+'产品名：XP++ '+d2.value;
+      print1.innerText = '申报成功，开发者将于3~5日内发送解释器打包文件，开发者邮箱：weiwei_2015_33@163.com。'
+    }
+  </script>
+</div>
+</body>
+</html>
